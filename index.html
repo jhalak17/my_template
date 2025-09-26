@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Music (autoplay, loop, hidden) -->
+    <audio id="bgMusic" src="happy-birthday.mp3" loop></audio>
+    <div class="container">
+        <!-- Pink Heart Light Graphic -->
+        <div class="heart-container">
+            <div class="heart">
+                <div class="heart-glow"></div>
+            </div>
+            <div class="sparkles">
+                <div class="sparkle sparkle-1"></div>
+                <div class="sparkle sparkle-2"></div>
+                <div class="sparkle sparkle-3"></div>
+                <div class="sparkle sparkle-4"></div>
+                <div class="sparkle sparkle-5"></div>
+                <div class="sparkle sparkle-6"></div>
+            </div>
+        </div>
+
+        <!-- Clickable Envelope -->
+        <div class="envelope-container">
+            <div class="envelope" onclick="openEnvelope()">
+                <div class="envelope-flap"></div>
+                <div class="envelope-letter">
+                    <p>💕 You have a special message! 💕</p>
+                </div>
+            </div>
+            <p class="open-text">Open Me</p>
+        </div>
+
+        <!-- Hidden Message -->
+        <div class="message" id="hiddenMessage">
+            <div class="message-content">
+                <h2>💖 Hi Avinash 💖</h2>
+                <p>🎂 Happy Birthday Love 🎂</p>
+                <p>You are amazing person I ever met !</p>
+                <p>Have a wonderful birthday baby !</p>
+                <p>Now click here 👇</p>
+                <button class="close-btn" onclick="showPhotoGallery()">Click</button>
+            </div>
+        </div>
+
+        <!-- Photo Gallery Page -->
+        <div class="photo-gallery" id="photoGallery">
+            <div class="gallery-container">
+                <h1 class="gallery-title">💕 Our Beautiful Memories 💕</h1>
+                
+                <div class="polaroids-grid">
+                    <div class="polaroid polaroid-1">
+                        <div class="photo-frame">
+                            <div class="photo photo-1"></div>
+                        </div>
+                        <div class="photo-caption">Dear Handsome Boyfriend 💕</div>
+                    </div>
+                    
+                    <div class="polaroid polaroid-2">
+                        <div class="photo-frame">
+                            <div class="photo photo-2"></div>
+                        </div>
+                        <div class="photo-caption">Since our first meeting 💫</div>
+                    </div>
+                    
+                    <div class="polaroid polaroid-3">
+                        <div class="photo-frame">
+                            <div class="photo photo-3"></div>
+                        </div>
+                        <div class="photo-caption">Our first date ☕ </div>
+                    </div>
+                    
+                    <div class="polaroid polaroid-4">
+                        <div class="photo-frame">
+                            <div class="photo photo-4"></div>
+                        </div>
+                        <div class="photo-caption">Our first adventure 🌅</div>
+                    </div>
+                    
+                    <div class="polaroid polaroid-5">
+                        <div class="photo-frame">
+                            <div class="photo photo-5"></div>
+                        </div>
+                        <div class="photo-caption">Our first festival together 🌟</div>
+                    </div>
+                    
+                    <div class="polaroid polaroid-6">
+                        <div class="photo-frame">
+                            <div class="photo photo-6"></div>
+                        </div>
+                        <div class="photo-caption">With all our joyous rides 😉</div>
+                    </div>
+                    
+                    <div class="polaroid polaroid-7">
+                        <div class="photo-frame">
+                            <div class="photo photo-7"></div>
+                        </div>
+                        <div class="photo-caption">You have been my Angel ☀️</div>
+                    </div>
+                    
+                    <div class="polaroid polaroid-8">
+                        <div class="photo-frame">
+                            <div class="photo photo-8"></div>
+                        </div>
+                        <div class="photo-caption">Happy birthday my love 🎉</div>
+                    </div>
+                    
+                    <div class="polaroid polaroid-9">
+                        <div class="photo-frame">
+                            <div class="photo photo-9"></div>
+                        </div>
+                        <div class="photo-caption">Forever and always 💍</div>
+                    </div>
+                </div>
+                
+                <div class="gallery-footer">
+                    <p class="birthday-message">🎂 Wishing you the most amazing birthday! 🎂</p>
+                    <button class="back-btn" onclick="showLetter()">Click for More 💌</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Beautiful Letter Page -->
+        <div class="letter-page" id="letterPage">
+            <div class="letter-container">
+                <div class="letter-paper">
+                    <div class="letter-header">
+                        <h1>💕 A Special Letter for You 💕</h1>
+                        <div class="letter-date">On Your Special Day</div>
+                    </div>
+                    
+                    <div class="letter-content">
+                        <p class="letter-greeting">My Dear boyfriend,</p>
+                        
+                        <p>Today marks another year of your incredible journey, and I couldn't be more grateful to be part of it. As you celebrate your birthday, I want you to know just how special you are to everyone around you.</p>
+                        
+                        <p>Your smile has the power to light up the darkest rooms, and your laughter is like music that makes everything better. The way you see the world with such optimism and kindness inspires everyone who knows you.</p>
+                        
+                        <p>I've watched you grow, overcome challenges, and achieve amazing things. Your determination and strength never cease to amaze me. You have this wonderful ability to make people feel valued and loved.</p>
+                        
+                        <p>Remember all those moments we've shared - the adventures, the quiet conversations, the silly jokes that made us laugh until our stomachs hurt. Each memory is a treasure that I hold close to my heart.</p>
+                        
+                        <p>Your compassion towards others shows the beautiful soul you have. You've touched so many lives in ways you might not even realize. Your presence makes the world a brighter, more beautiful place.</p>
+                        
+                        <p>As you embark on this new year of life, I want you to know that you are loved beyond measure. May your days be filled with joy, your heart with peace, and your life with endless possibilities.</p>
+                        
+                        <p>Chase your dreams fearlessly, embrace every opportunity, and never forget how incredibly special you are. The world is better because you're in it, and I'm grateful for every moment we get to share.</p>
+                        
+                        <p>Here's to another year of laughter, growth, adventures, and beautiful memories. May this birthday be the beginning of your most amazing year yet!</p>
+                        
+                        <p>Happy Birthday, dear Name! May all your wishes come true and may happiness follow you wherever you go. You deserve all the love and joy this world has to offer.</p>
+                        
+                        <p class="letter-closing">With all my love and warmest birthday wishes,</p>
+                        <p class="letter-signature">💖 Always yours 💖</p>
+                    </div>
+                    
+                    <div class="letter-decorations">
+                        <div class="heart-decoration heart-1">💕</div>
+                        <div class="heart-decoration heart-2">💖</div>
+                        <div class="heart-decoration heart-3">✨</div>
+                        <div class="heart-decoration heart-4">🌟</div>
+                        <div class="heart-decoration heart-5">💫</div>
+                    </div>
+                </div>
+                
+                <div class="letter-footer">
+                    <button class="final-btn" onclick="showCoupon()">Now it's gift time! 🎁</button>
+                </div>
+            </div>
+        </div>
+        <!-- Coupon Page -->
+        <div class="coupon-page" id="couponPage">
+            <div class="coupon-container">
+                <div class="coupon-header">
+                    <h1>🎁 Your Birthday E-Gift Card 🎁</h1>
+                    <p class="coupon-desc">Here is your special e-gift card!</p>
+                </div>
+                <div class="egift-card-wrapper">
+                    <img src="https://img.freepik.com/free-vector/gift-card-template-pink-ribbon_53876-116104.jpg" alt="E-Gift Card" class="egift-card-img">
+                    <div class="coupon-reveal" id="couponReveal">
+                        <h2>💖 Coupon Code: LOVE2025 💖</h2>
+                        <p>Get a special treat for your birthday !!<br>Exclusively from ME 💎<br>Valid only for one amazing date night! 🎂</p>
+                    </div>
+                </div>
+                <div class="coupon-footer">
+                    <button class="final-btn" onclick="goBackToMain()">Back to Start 🏠</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
